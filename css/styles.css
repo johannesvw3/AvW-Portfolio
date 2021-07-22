@@ -5,6 +5,7 @@
     z-index: -1;
     width:auto;     
     height: auto;
+    position: absolute;
 }
 
 .menubar {
@@ -37,3 +38,27 @@
     font-size: 80px;
     color: orange;
 }
+
+@media all and (max-width: 740px) {
+    .menubar {
+        display: flex;
+        flex-direction: column;
+    }
+    .menuitem {
+        font-size: 10px;
+    }
+    #avw {
+        font-size: 20px;
+        padding: 0;
+    }
+    #title {
+    font-size: 30px;
+    }
+    #videoBG {
+        display: none;
+    }
+    html {
+        background-color: black;
+    }
+}
+
