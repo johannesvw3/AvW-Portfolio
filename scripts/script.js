@@ -12,3 +12,10 @@ window.addEventListener('mouseup', function(event){
         menu.style.width = '0';
     }
 });
+
+window.addEventListener('touchmove', function(event){
+	let menu = document.getElementById('mySidebar');
+	if (event.target != menu && event.target.parentNode != menu){
+        menu.style.width = '0';
+    }
+});
