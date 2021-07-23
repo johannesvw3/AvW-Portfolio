@@ -67,7 +67,6 @@
         padding-right: 17px;
         padding-left: 7px;
     }
-
     .menuitem {
         font-size: 13px;
         padding-right: 9px;   
@@ -84,10 +83,11 @@
     }
     #avw-title {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
         width: 50%;
         padding-bottom: 12px;
+        font-size: 16px;
+        font-family: 'Lobster Two', cursive;
+        color: orange;
     }
     #menu {
         display: flex;
