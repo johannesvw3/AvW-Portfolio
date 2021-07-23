@@ -15,7 +15,6 @@
 }
 
 .menubar {
-    width: 53%;
     border-bottom: 2px solid orange;
     padding-top: 30px;
     display: flex;
@@ -27,6 +26,10 @@
     padding-right: 15px;
     text-decoration: none;
     color: white;
+}
+
+.menuitem:hover {
+    color: rgb(71, 138, 240);
 }
 
 #avw-title, #menu {
@@ -50,20 +53,23 @@
     font-size: 80px;
     color: orange;
 }
+.closebtn {
+    display: none;
+}
 
-@media all and (max-width: 954px) {
+@media all and (max-width: 990px) {
     #videoBG {
         min-width: 100%; 
         min-height: 100%; 
     }
     #adrian-title {
-        font-size: 18px;
-        padding-right: 20px;
-        padding-left: 10px;
+        font-size: 19px;
+        padding-right: 17px;
+        padding-left: 7px;
     }
 
     .menuitem {
-        font-size: 12px;
+        font-size: 13px;
         padding-right: 9px;   
     }
 }
@@ -76,39 +82,76 @@
         width: 100%;
         border-bottom: none;
     }
-    .menuitem {
-        padding-bottom: 5px;
-        font-size: 10px;
-    }
     #avw-title {
-        font-size: 20px;
-        padding-bottom: 2px;
-        display: flex;
-        color: orange;
-        font-family: 'Lobster Two', cursive;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-bottom: 12px;
     }
     #menu {
         display: flex;
         padding-bottom: 5px;
         cursor: pointer;
     }
-    .mobile-nav {
-        display: flex;
-        flex-direction: column;
-        display: none;
-        background-color: rgba(255, 166, 0, 0.589);
-        width: 15%;
-        padding: 10px;
-        border-radius: 10px;
-    }
+    /* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: rgb(158, 158, 117); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 15px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: orange;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  .openbtn:hover {
+    background-color: #444;
+  }  
     #adrian-title {
-        display: none;
+    display: none;
     }
     #title {
     font-size: 30px;
     }
     #videoBG {
-        min-width: 100%; 
-        min-height: 100%; 
+    min-width: 100%; 
+    min-height: 100%; 
     }
 }
