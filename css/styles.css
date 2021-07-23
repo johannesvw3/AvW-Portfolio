@@ -89,6 +89,13 @@
         font-family: 'Lobster Two', cursive;
         color: orange;
     }
+    #avw-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-bottom: 15px;
+    }
     #menu {
         display: flex;
         padding-bottom: 5px;
