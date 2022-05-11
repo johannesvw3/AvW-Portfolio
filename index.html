@@ -15,9 +15,7 @@
 </head>
 <body>
   <heder class="header">
-    <video id="videoBG" poster="" autoplay muted loop playsinline>
-        <source src="videos/studio.mp4" type="video/mp4">
-    </video>
+    <img  src="img/studio.jpg" id="videoBG" >
     <nav class="menubar">
             <a href="index.html" class="menuitem" id="avw-title">Adrian van Woerkom</a>
             <img src="img/menu3.png" alt="Hamburger Menu" id="menu" height="30px" width="30px" onclick="openNav()">
@@ -32,7 +30,7 @@
             <a href="index.html" class="menuitem button" id="logo-menu">
             <img src="img/avw-logo.jpg" class="menuitem" id="avw-logo-big" height="60px" width="60px"></a>
             </div>
-            <a href="Films.html" class="menuitem button" id="Film">Film</a>
+            <a href="Film.html" class="menuitem button" id="Film">Film</a>
             <a href="Commercials.html" class="menuitem button" id="Commercials">Commercials</a>
             <a href="Media.html" class="menuitem button" id="Media">Media</a>
             <a href="contact.html" class="menuitem button" id="Contact">Contact</a>
@@ -43,10 +41,13 @@
     <div class="about-me">
       <div id="slide">
         <div class="slideshow-container">
-          <div class="mySlides fade"  id="piano"> <img src="img/piano.jpg" style="width:100%"> </div>
-          <div class="mySlides fade"> <img src="img/avw-logo.jpg" style="width:100%"> </div>
-          <div class="mySlides fade"> <img src="img/studio.jpeg" style="width:100%"> </div>
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a> </div>
+          <div class="mySlides fade"  > <img id="entrance" src="img/Studio-Entrance.jpg"  > </div>
+          <div class="mySlides fade"> <img id="studio-room1" src="img/studio-room1.jpg"> </div>
+          <!-- <div class="mySlides fade"> <img src="img/studio.jpeg" style="width: 27rem"> </div> -->
+          <div id="img-buttons">
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a> 
+          </div>
+        </div>
         <br>
         <div style="text-align:center"> 
         <span class="dot" onclick="currentSlide(1)"></span> 
@@ -59,11 +60,7 @@
 
           Aenean pharetra ornare enim, et auctor turpis interdum quis. Duis consectetur imperdiet scelerisque. Integer sit amet nisi est. Integer egestas metus tincidunt nunc interdum consequat. Duis consectetur consequat consequat. Fusce vitae vehicula lectus, nec finibus enim. Ut dictum venenatis hendrerit. Duis eget ultricies libero. Nulla id urna non turpis bibendum facilisis. Sed cursus varius mauris. Vestibulum mattis dui eget mi lobortis fermentum. Morbi sed egestas magna, eget aliquet augue. <br><br>
           
-          Phasellus tincidunt, ipsum ut maximus ullamcorper, urna magna congue sem, id pretium nibh dolor eget erat. In fermentum imperdiet purus quis consectetur. Ut ut euismod metus, vel faucibus nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque auctor nisi nec aliquet porttitor. Vestibulum lobortis dui tellus, sed fermentum orci finibus ultrices. Nam id ipsum imperdiet, pretium tortor eu, semper velit.<br><br>
-          
-          Quisque volutpat purus porta quam sagittis dapibus. Morbi sagittis et purus eu gravida. Curabitur vitae sollicitudin risus, sit amet sodales purus. Ut pretium pulvinar ipsum, et scelerisque nisl tincidunt vel. Aenean urna odio, congue id euismod ut, tempor quis nibh. Sed luctus pulvinar blandit. Nunc condimentum commodo ultricies. Aliquam faucibus risus id pulvinar bibendum. Mauris ex tortor, imperdiet imperdiet vehicula eu, maximus aliquam erat. Fusce dapibus dolor vel justo iaculis ultricies. Nunc finibus tellus in magna placerat, eu faucibus arcu cursus. Vivamus tincidunt bibendum mauris, efficitur faucibus sapien hendrerit id. Phasellus faucibus dolor id sapien eleifend dictum. Nullam pulvinar mi metus, id laoreet elit ornare viverra.<br><br>
-          
-          Cras risus tortor, gravida ut porta quis, feugiat vel arcu. Nulla facilisi. Vivamus ante enim, placerat vel magna quis, sodales luctus diam. Aenean ligula nibh, dictum faucibus rutrum ut, maximus ut tortor. Sed ut egestas leo. Nulla nunc sem, euismod ut porta quis, mollis vitae odio. Duis non felis imperdiet magna maximus placerat. Nulla et maximus magna.</p>
+          </p>
       
     </div>
 </body>
