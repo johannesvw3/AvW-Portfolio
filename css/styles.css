@@ -23,7 +23,7 @@ html {
 }
 
 .menubar {
-    padding-top: 30px;
+    padding-top: 20px;
     font-size: 20PX;
     background-color: rgba(0, 0, 0, 0.267);
     border-radius: 5px;
@@ -70,24 +70,44 @@ html {
     font-size: 80px;
     color: orange;
 }
+
+.youtube-links {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    text-align: center;
+}
+
+#playlist-title {
+    color: orange;  
+}
+
 .closebtn {
     display: none;
 }
 
-.about-me {
-    display: flex;
-    justify-content: center;
+#featured-work-title {
+    text-align: center;
+    color: orange;
+    font-size: 40px;;
 }
 
-.about-text {
+.about-me {
     display: flex;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    width: 40%;
-    height: 60px;
-    text-align: center;
-    padding-left: 60px;
+    flex-direction: row;
+    padding-left: 8%;
+}
+
+.featured-videos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
+    padding-left: 10%;
+}
+
+#f-video {
+    margin: 10px;
+    border: 1px solid silver;
 }
 
 .mySlides {
@@ -106,8 +126,8 @@ html {
 }
 
 #entrance, #studio-room1 {
-    width: 27rem;
-    min-height: 35rem;
+    width: 29rem;
+    min-height: 40rem;
 }
 
 /* Next & previous buttons */
