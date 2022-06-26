@@ -68,9 +68,23 @@ html {
 }
 
 #main-playlist-title {
+    cursor: pointer;
     color: orange;
     text-align: center;
     font-size: 40px;
+}
+
+#main-playlist-title:hover {
+    cursor: pointer;
+    color: blue;
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .youtube-links {
