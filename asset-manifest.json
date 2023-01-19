@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ce712b3.css",
-    "main.js": "/static/js/main.6edbfd74.js",
-    "static/media/studio-entrance.jpeg": "/static/media/studio-entrance.572980c6cd8b66a1639a.jpeg",
-    "static/media/studio.jpeg": "/static/media/studio.e9c507ca76dfdcbd8ad5.jpeg",
-    "static/media/studio-room1.jpeg": "/static/media/studio-room1.6de44ba85bb6fa04b767.jpeg",
-    "static/media/avw-logo.png": "/static/media/avw-logo.2c53464db402940e4d8a.png",
-    "static/media/adrian-keyboard.jpg": "/static/media/adrian-keyboard.737d4c3b4ef1e13fbf8f.jpg",
-    "static/media/adrian-full.jpg": "/static/media/adrian-full.c73b37736c13ea237504.jpg",
-    "index.html": "/index.html",
-    "main.4ce712b3.css.map": "/static/css/main.4ce712b3.css.map",
-    "main.6edbfd74.js.map": "/static/js/main.6edbfd74.js.map"
+    "main.css": "/adrianvanwoerkom.com/static/css/main.6658214c.css",
+    "main.js": "/adrianvanwoerkom.com/static/js/main.2e77f031.js",
+    "static/media/studio-entrance.jpeg": "/adrianvanwoerkom.com/static/media/studio-entrance.572980c6cd8b66a1639a.jpeg",
+    "static/media/studio.jpeg": "/adrianvanwoerkom.com/static/media/studio.e9c507ca76dfdcbd8ad5.jpeg",
+    "static/media/studio-room1.jpeg": "/adrianvanwoerkom.com/static/media/studio-room1.6de44ba85bb6fa04b767.jpeg",
+    "static/media/avw-logo.png": "/adrianvanwoerkom.com/static/media/avw-logo.2c53464db402940e4d8a.png",
+    "static/media/adrian-keyboard.jpg": "/adrianvanwoerkom.com/static/media/adrian-keyboard.737d4c3b4ef1e13fbf8f.jpg",
+    "static/media/adrian-full.jpg": "/adrianvanwoerkom.com/static/media/adrian-full.c73b37736c13ea237504.jpg",
+    "index.html": "/adrianvanwoerkom.com/index.html",
+    "main.6658214c.css.map": "/adrianvanwoerkom.com/static/css/main.6658214c.css.map",
+    "main.2e77f031.js.map": "/adrianvanwoerkom.com/static/js/main.2e77f031.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ce712b3.css",
-    "static/js/main.6edbfd74.js"
+    "static/css/main.6658214c.css",
+    "static/js/main.2e77f031.js"
   ]
 }
